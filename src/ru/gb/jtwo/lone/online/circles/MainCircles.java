@@ -27,7 +27,7 @@ public class MainCircles extends JFrame {
         initApplication();
         GameCanvas canvas = new GameCanvas(this);
         Background bgChanger = new Background(canvas);
-//        bgChanger.startBgRandomColor(1000);
+        bgChanger.startBgRandomColor(1000);
         add(canvas, BorderLayout.CENTER);
         setTitle("Circles");
         setVisible(true);
